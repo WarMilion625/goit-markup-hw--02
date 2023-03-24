@@ -13,13 +13,13 @@
     }
     /* General styles */
     body {
-    font-family: 'Roboto', ;
+    font-family: 'Roboto','Raleway' ;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.14;
-    color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
+    color: #434455;
+    background-color: #FFFFFF;
     }
     ul{
     list-style: none;
@@ -30,16 +30,16 @@
     }
     /* Logo  */
     .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-family: 'Raleway','Roboto' sans-serif;
+    font-weight: 800;
     }
     .logo.primary{
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 18px;
+    line-height: 1.17;
     }
     .logo.secondary {
     font-size: 22px;
-    line-height: 1.18;
+    line-height: 1.17;
     color: var(--primary-white-color);
     }
     .logo .logo-style {
@@ -48,7 +48,7 @@
     /* Website nav */
     .nav {
     font-weight: 500;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     }
     .nav .link:hover,
     .nav .link:focus {
