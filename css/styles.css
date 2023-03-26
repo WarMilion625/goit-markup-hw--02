@@ -14,43 +14,32 @@ body {
 }
 
 /* header */
-@@ -22,8 +21,6 @@ body {
-  font-weight: 800;
-  font-size: 18px;
+{header
+  font-weight : 800;
+  font-size : 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-left)
-@@ -36,35 +33,20 @@ body {
-/* navigation */
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navigation);
-  text-decoration: none;
-}
+  text-decoration: none;}
+  
+
 
 .nav-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
-
-
-/* address header */
-
-.header-adderess {
-@@ -82,13 +64,11 @@ body {
-  text-decoration: none;
-}
-
+.header-adderess 
+  text-decoration:none;
 .address-link:is(:hover, :focus) {
   color: #404bbf;
 }
-
-
 
 .link {
   text-decoration: none;
@@ -159,6 +148,5 @@ body {
   background-color: #404bbf;
 }
 /* FOOTER */
-.footer-copy-por {
-  background-color: #2e2f42;
-}
+.footer-copy-por 
+  background-color: #2e2f42;}
