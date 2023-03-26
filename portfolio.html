@@ -4,105 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Studio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-  </head>
-  <body>
-    <!-- Шапка сайту -->
+</head>
 
-    <header class="header">
-      <a href="index.html" class="logo-web link">web<span class="logo-std">studio</span></a>
-      <nav class="nav-menu">
-        <ul class="nav-linklist list">
-          <li><a href="index.html" class="nav-link link">Studio</a></li>
-          <li><a href="portfolio.html" class="nav-link link">Portfolio</a></li>
-          <li><a href="" class="nav-link link"> Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Контакти в шапці -->
-     <address>
-        <ul class="contact-list list">
-        <li><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
-        <li><a href="tel:+11(000)111-11-11" class="contact link">+11 (000) 111-11-11</a></li>
-      </ul>
-      </address>
+<body>
+    <!-- Шапка сайту. -->
+    <header>
+        <nav><!-- / слеш як силка, повернутись назад в <a href="/"> -->
+            <a href="./index.html" class="logo-left link">
+                Web<span class="logo-right link">Studio</span>
+            </a>
+            <!--  Список елементів в якх є посилань -->
+            <!-- header and links -->
+            <ul class="header-list  list">
+                <li class="header-item">
+                    <a href="./index.html" class="nav-link link">Studio</a>
+                </li>
+                <li class="header-item">
+                    <a href="./portfolio.html" class=" nav-link link">Portfolio</a>
+                </li>
+                <li class="header-item">
+                    <a href="" class="nav-link link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Список контактів  -->
+        <address class="header-adderess link list">
+            <ul class="adrdress-list list">
+                <li class="header-item">
+                    <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-item">
+                    <a class="address-link link" href="tel:+110001111111"> +11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
     </header>
+    <!-- hero image -  головний абзац сторінки  -->
     <main>
-    <section>
-  <h1 hidden>Portfolio of completed sites</h1>
-<ul class="button-list-potrfolio list">
-  <li><button type="button" class="button-portf">All</button></li>
-  <li><button type="button" class="button-portf">Web Site</button></li>
-  <li><button type="button" class="button-portf">App</button></li>
-  <li><button type="button" class="button-portf">Design</button></li>
-  <li><button type="button" class="button-portf">Marketing</button></li>
-</ul>
-
-         <ul class="cards-links-img list">
-        <li>
-          <a href="" class="link"> <img src="./images/8.jpg" alt="Banking App Interface Concept photo" width="360">
-          <h2 class="sector-business">Banking App Interface Concept</h2>
-          <p class="portfol-descrip">App</p>
-        </a>
-
-        </li>
-        <li>
-          <a href="" class="link"><img src="./images/9.jpg" alt="Cashless Payment photo" width="360">
-          <h2 class="sector-business">Cashless Payment</h2>
-          <p class="portfol-descrip">Marketing</p></a>
-
-        </li>
-        <li>
-          <a href="" class="link"><img src="./images/10.jpg" alt="Meditation Application photo" width="360">
-          <h2 class="sector-business">Meditation App</h2>
-          <p class="portfol-descrip">App</p>
-        </a>
-          </li>
-
-        <li>
-          <a href="" class="link"><img src="./images/11.jpg" alt="Taxi Service photo" width="360">
-          <h2 class="sector-business">Taxi Service</h2>
-          <p class="portfol-descrip">Marketing</p></a> 
-        </li>
-        <li>
-          <a href="" class="link"><img src="./images/12.jpg" alt="Screen Illustrations photo" width="360">
-          <h2 class="sector-business">Screen Illustrations</h2>
-          <p class="portfol-descrip">Design</p></a>          
-        </li>
-        <li>
-          <a href="" class="link"><img src="./images/13.jpg" alt="Online Courses photo" width="360">
-          <h2 class="sector-business">Online Courses</h2>
-          <p class="portfol-descrip">Marketing</p></a>          
-        </li>
-        <li>
-          <a href="" class="link"><img src="./images/14.jpg" alt="Instagram Stories Concept photo" width="360">
-          <h2 class="sector-business">Instagram Stories Concept</h2>
-          <p class="portfol-descrip">Design</p></a>
-          </li>
-        <li> 
-          <a href="" class="link"><img src="./images/15.jpg" alt="Organic Food photo" width="360">
-          <h2 class="sector-business">Organic Food</h2>
-          <p class="portfol-descrip">Web Site</p></a>
-          </li>
-        <li>
-          <a href="" class="link"><img src="./images/16.jpg" alt="Fresh Coffee photo" width="360">
-          <h2 class="sector-business">Fresh Coffee</h2>
-          <p class="portfol-descrip">Web Site</p></a>
-         </li>
-      </ul>
-    </section>
+        <section class="hero-list">
+            <h1 class="hero-subject">Effective Solutions for Your Business</h1>
+            <button type="button" class="button-hero">Order Service</button>
+        </section>
+        <!-- section two  -->
+        <section>
+            <h2 hidden class="section-subject">Description</h2>
+            <ul class="list">
+                <li class="text-list">
+                    <h3 class="headline-item">Strategy</h3>
+                    <p class="text-item">Our goal is to identify the business
+                        problem to walk away with the perfect and creative solution.</p>
+                </li>
+                <li class="text-list">
+                    <h3 class="headline-item">Punctuality</h3>
+                    <p class="text-item">Bring the key message to the brand's audience for the best price within the
+                        shortest possible
+                        time.
+                    </p>
+                </li>
+                <li class="text-list">
+                    <h3 class="headline-item">Diligence</h3>
+                    <p class="text-item">Research and confirm brands that present the strongest digital growth
+                        opportunities and minimize
+                        risk.</p>
+                </li>
+                <li class="text-list">
+                    <h3 class="headline-item">Technologies</h3>
+                    <p class="text-item">Design practice focused on digital experiences. We bring forth a deep passion
+                        for
+                        problem-solving.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <!-- section tree -->
+        <section>
+            <h2 class="section-title">What are we doing</h2>
+            <ul class="list">
+                <li>
+                    <img src="./images/image1.jpg" alt="The first picture" width="360">
+                </li>
+                <li>
+                    <img src="./images/image2.jpg" alt="The second picture" width="360">
+                </li>
+                <li>
+                    <img src="./images/image3.jpg" alt="The third picture" width="360">
+                </li>
+            </ul>
+        </section>
+        <!-- section four -->
+        <section class="section-four">
+            <h2 class="section-title">Our Team</h2>
+            <ul class="list">
+                <li class="image-team">
+                    <img src="./images/employee1.jpg" alt="Mark Guerrero" width="264">
+                    <h3 class="headline-item">Mark Guerrero</h3>
+                    <p class="text-item">Product Designer</p>
+                </li>
+                <li class="image-team">
+                    <img src="./images/employee2.jpg" alt="Anna Lee" width="264">
+                    <h3 class="headline-item">Tom Ford</h3>
+                    <p class="text-item">Frontend Developer</p>
+                </li>
+                <li class="image-team">
+                    <img src="./images/employee3.jpg" alt="John Smith" width="264">
+                    <h3 class="headline-item">Camila Garcia</h3>
+                    <p class="text-item">Marketing</p>
+                </li>
+                <li class="image-team">
+                    <img src="./images/employee4.jpg" alt="Sarah Johnson" width="264">
+                    <h3 class="headline-item">Daniel Wilson</h3>
+                    <p class="text-item">UI Designer</p>
+                </li>
+            </ul>
+        </section>
     </main>
-
-   <!-- Низ сайту -->
-    <footer class="footer-section">
-<a href="index.html" class="logo-web link">web<span class="logo-std-ft">studio</span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <!-- Footer -->
+    <footer class="footer-copyrigth">
+        <a href="./index.html" class="logo-left link">
+            Web<span class="logo-right-footer link">Studio</span>
+        </a>
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+            growth solutions.</p>
     </footer>
-  </body>
+</body>
 </html>
