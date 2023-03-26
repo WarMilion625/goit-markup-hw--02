@@ -13,9 +13,12 @@
     --cl-modal-background: #fcfcfc;
   }
   body {
+    font-family: "Roboto", "sans-serif";
     color: #434455;
-    background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    
+    
+    
   }
   /* Header */
   .logo {
